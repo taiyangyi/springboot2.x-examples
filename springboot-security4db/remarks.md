@@ -98,7 +98,29 @@ public interface UserMapper extends BaseMapper<User> {
 }
 ```
 
-### 5.在MyUserDetailsService调用mapper里面的方法-查询数据库进行用户认证
+### 5.配置security配置类 securityconfig
+```java
+@Configuration
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Autowired
+    private UserDetailsService userDetailsService;
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userDetailsService).passwordEncoder(buildPasswordEncoder());
+    }
+
+    @Bean
+    PasswordEncoder buildPasswordEncoder() {
+        return new BCryptPasswordEncoder();
+
+    }
+}
+```
+
+
+### 6.在MyUserDetailsService调用mapper里面的方法-查询数据库进行用户认证
 ```java
 @Override
 public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -120,7 +142,7 @@ public UserDetails loadUserByUsername(String username) throws UsernameNotFoundEx
 }
 ```
 
-### 6.在启动类添加注解 MapperScan
+### 7.在启动类添加注解 MapperScan
 ```java
 @SpringBootApplication
 @MapperScan("com.daobili.mapper")
@@ -133,7 +155,7 @@ public class SpringbootSecurity4dbApplication {
 }
 ```
 
-### 7.配置数据库信息
+### 8.配置数据库信息
 
 ```properties
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
@@ -141,3 +163,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/db_security?useUnicode=true&ch
 spring.datasource.username=root
 spring.datasource.password=123321
 ```
+
+
+
+
