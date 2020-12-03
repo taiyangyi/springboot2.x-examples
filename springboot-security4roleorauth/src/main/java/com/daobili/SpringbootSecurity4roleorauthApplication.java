@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @MapperScan("com.daobili.mapper")
 @SpringBootApplication
-public class SpringbootSecurity4dbLogin4htmlApplication {
+public class SpringbootSecurity4roleorauthApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootSecurity4dbLogin4htmlApplication.class, args);
+        SpringApplication.run(SpringbootSecurity4roleorauthApplication.class, args);
     }
 
 }
