@@ -1,6 +1,6 @@
 ## web权限方案-基于角色或权限进行访问控制
 
-###1. hasAuthority 方法
+### 1. hasAuthority 方法
 如果当前的主体具有指定的权限，则返回 true,否则返回 false
 
 * 在当前配置类设置访问地址有哪些权限
@@ -61,7 +61,7 @@
 1. 修改   `修改点2`为 manager (随便定义)，浏览器访问 返回403，没有权限访问
 2. 修改  `修改点2`为 admins (随便定义)，浏览器访问 访问成功
 
-###2. hasAnyAuthority 方法
+### 2. hasAnyAuthority 方法
 如果当前的主体有任何提供的角色（给定的作为一个逗号分割的字符串列表）的话，则返回 true,否则返回 false
 
 * 在当前配置类设置访问地址有哪些权限
@@ -209,7 +209,7 @@ public UserDetails loadUserByUsername(String username) throws UsernameNotFoundEx
 }
 ```
 
-###4. hasAnyRole 方法
+### 4. hasAnyRole 方法
 表示用户具备任何一个条件都可以访问。
 
 ```java
