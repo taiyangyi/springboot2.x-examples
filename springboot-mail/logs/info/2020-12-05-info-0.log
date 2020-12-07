@@ -1,0 +1,20 @@
+2020-12-05 20:53:17.699 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 2821 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-05 20:53:17.700 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-05 20:53:19.080 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 20:53:19.363 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-05 20:53:19.499 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 2.242 seconds (JVM running for 3.561)
+2020-12-05 20:53:21.295 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 21:20:29.847 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 2949 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-05 21:20:29.851 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-05 21:20:31.231 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 21:20:31.492 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-05 21:20:31.616 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 2.442 seconds (JVM running for 4.113)
+2020-12-05 21:20:33.003 [main] INFO  com.daobili.service.impl.MailServiceImpl - From:445143260@qq.com->To:tbamaw@163.com邮件发送成功
+2020-12-05 21:20:33.038 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-05 21:39:38.854 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 3058 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-05 21:39:38.866 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-05 21:39:40.265 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-05 21:39:40.533 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-05 21:39:40.671 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 2.341 seconds (JVM running for 3.955)
+2020-12-05 21:39:44.067 [main] INFO  com.daobili.service.impl.MailServiceImpl - From:445143260@qq.com->To:tbamaw@163.com邮件发送成功
+2020-12-05 21:39:44.093 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

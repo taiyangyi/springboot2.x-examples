@@ -1,0 +1,27 @@
+2020-12-07 22:35:05.329 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 6307 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-07 22:35:05.330 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-07 22:35:07.394 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 22:35:07.689 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-07 22:35:07.840 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 3.327 seconds (JVM running for 5.251)
+2020-12-07 22:35:11.262 [main] INFO  com.daobili.service.impl.MailServiceImpl - From:445143260@qq.com->To:tbamaw@163.com邮件发送成功
+2020-12-07 22:35:11.296 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:39:30.406 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 6512 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-07 23:39:30.409 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-07 23:39:31.817 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:39:32.510 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 3.006 seconds (JVM running for 4.868)
+2020-12-07 23:39:34.202 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:42:07.484 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 6523 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-07 23:42:07.486 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-07 23:42:08.988 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:42:09.558 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 2.966 seconds (JVM running for 4.87)
+2020-12-07 23:42:10.961 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:52:58.480 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 6553 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-07 23:52:58.483 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-07 23:52:59.973 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:53:00.462 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 2.523 seconds (JVM running for 4.214)
+2020-12-07 23:53:02.027 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:55:05.416 [main] INFO  com.daobili.SpringbootMailApplicationTests - Starting SpringbootMailApplicationTests using Java 1.8.0_191 on bamawdeMacBook-Pro.local with PID 6566 (started by bamaw in /Users/bamaw/workspace/backend/springboot2.x-examples/springboot-mail)
+2020-12-07 23:55:05.417 [main] INFO  com.daobili.SpringbootMailApplicationTests - The following profiles are active: qq
+2020-12-07 23:55:07.047 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-07 23:55:07.579 [main] INFO  com.daobili.SpringbootMailApplicationTests - Started SpringbootMailApplicationTests in 3.095 seconds (JVM running for 4.718)
+2020-12-07 23:55:09.304 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
