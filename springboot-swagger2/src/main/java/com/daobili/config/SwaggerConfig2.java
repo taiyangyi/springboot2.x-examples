@@ -18,8 +18,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Date 2020-11-23  23:19
  * @Description Swagger配置类 随环境变化启用Swagger
  */
-@Configuration
-@EnableSwagger2
+//@Configuration
+//@EnableSwagger2
 public class SwaggerConfig2 {
 
     /**

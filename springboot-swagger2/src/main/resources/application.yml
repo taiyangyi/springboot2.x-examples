@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+
+# 配置Swagger
+swagger:
+  title: SpringBoot整合Swagger
+  description: SpringBoot整合Swagger，详细信息......
+  groupName: 业务数据模块API
+  version: 1.0
+  basePackage: com.daobili.controller
+  author: 巴莫
+  authorUrl: http://www.taiyangyi.com
+  authorEmail: tbamaw@163.com
