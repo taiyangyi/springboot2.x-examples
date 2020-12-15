@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
  * @Author bamaw
- * @Date 2020-12-03  22:40
+ * @Date 2020-12-05  15:48
  * @Description 基于 自定义编写实现类 UserDetailService
  * 第一步操作
  */
@@ -35,6 +35,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
+        // 配置没有权限访问跳转的403页面
+        http.exceptionHandling().accessDeniedPage("/403.html");
+
+
         // 自定义自己编写的登录页面
         http.formLogin()
                 // 登录页面设置
