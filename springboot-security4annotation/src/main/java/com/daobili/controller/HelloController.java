@@ -20,7 +20,7 @@ import java.util.List;
 @RestController
 public class HelloController {
 
-    @GetMapping("/ ")
+    @GetMapping("/")
     public String hello() {
         return "hello security!";
     }
