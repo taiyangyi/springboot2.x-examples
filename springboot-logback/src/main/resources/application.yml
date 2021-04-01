@@ -1,0 +1,3 @@
+# 日志配置
+logging:
+  config: classpath:config/logback/logback-spring.xml
