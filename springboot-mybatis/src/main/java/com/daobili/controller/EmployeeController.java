@@ -12,7 +12,7 @@ import java.util.List;
  * @date 2021-04-01  22:04
  */
 @RestController
-@RequestMapping(value = "/employee")
+@RequestMapping(value = "/api/v1.0/employee")
 public class EmployeeController {
 
 
@@ -48,8 +48,8 @@ public class EmployeeController {
      *
      * @param employee 员工实体类
      */
-    @PostMapping
-    public String saveEmployee(Employee employee) {
+    @PostMapping("/")
+    public String saveEmployee(@RequestBody Employee employee) {
         employService.saveEmployee(employee);
         return "success";
 
